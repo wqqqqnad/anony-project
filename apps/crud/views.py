@@ -4,7 +4,7 @@ from flask import Blueprint,render_template
 crud = Blueprint(
     "crud",
     __name__,
-    template_folder="template",
+    template_folder="templates",
 
     static_folder="static",
 )
